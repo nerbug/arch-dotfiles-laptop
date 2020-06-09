@@ -1,0 +1,34 @@
+acpilight - allows getting and setting the monitor's backlight in the terminal
+catimg - show images directly in the terminal window
+cmake - makefile generator for C and C++ projects
+cpupower - allows getting and setting CPU info in the terminal
+cpupower-gui - same, but GUI
+dmenu - dynamic menu for X, originally designed for dwm. Manages large numbers of user-defined menu items
+expac - data extraction tool for alpm databases
+feh - lightweight image viewer (installed to fix BadPicture errors in xcompmgr)
+gamemode - temporarily applies a set of optimizations while gaming (https://github.com/FeralInteractive/gamemode)
+gimp - GNU Image Manipulation Program
+keepassxc - password manager
+lib32-gamemode - same as gamemode, but for 32-bit applications
+mlocate - find files by name in the terminal (actual command is locate)
+mpd - music player daemon
+mpv - minimalist media player
+ncmpcpp - ncurses-based music player daemon (mpd) client
+neofetch - fast, highly customizable system info script
+neovim - fork of vim
+peaclock - customizable clock, timer and stopwatch for the terminal
+pulsemixer - ncurses mixer for Pulseaudio
+python-pywal - generate and change color schemes from images (for example, wallpapers) on the fly
+sof-firmware - provides various sound drivers (needed to get audio working on my system)
+sxiv - Simple X Image Viewer (I use this as my primary image viewer while in dwm)
+transset-df - patched version of Xorg's transset with added functionality (I probably don't need this?)
+thermald - thermal management daemon (probably don't need this either)
+visual-studio-code-bin - Visual Studio Code
+xclip - command line interface for selections
+xcompmgr - X compositor (needed to have transparent terminals in dwm)
+xorg-server-bug865 - Xorg X server with the patch for freedesktop bug 865 (need to kick hotkeys on release, not press) (really only relevant for KDE on my system, as this patch makes it so that keyboard layouts change when I release Left Ctrl+Left Shift, not when I press them)
+xorg-xev - prints contents of X events (sometimes nice to have)
+xwallpaper - wallpaper setting utility for X (again, only relevant for dwm, but I mainly use python-pywal for setting my wallpaper, as that also updates the colorscheme based on that wallpaper)
+yay - AUR helper written in Go
+zathura - minimalist document viewer
+zathura-pdf-mupdf - adds PDF support to zathura
