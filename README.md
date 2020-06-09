@@ -25,8 +25,8 @@ Various dotfiles and settings for my Manjaro Linux installation.
     * Liberation Mono (for `dwm` and `st`). Should be installed by default
     * Helvetica Neue (for `mpv` subtitles). To use a different font, replace `sub-font` in `~/.config/mpv/mpv.conf`
 
-# Screenshots (will probably get out of date soon)
+# Screenshots (will probably become out of date soon, as I change the setup)
 ## KDE
--- add screenshot for KDE here
+![KDE screenshot](https://i.imgur.com/BbsYMKn.png "KDE screenshot")
 ## dwm
--- add dwm screenshot here
+![dwm screenshot](https://i.imgur.com/gH1AFdY.png "dwm screenshot")
