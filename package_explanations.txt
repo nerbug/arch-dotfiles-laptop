@@ -19,6 +19,7 @@ neovim - fork of vim
 peaclock - customizable clock, timer and stopwatch for the terminal
 pulsemixer - ncurses mixer for Pulseaudio
 python-pywal - generate and change color schemes from images (for example, wallpapers) on the fly
+scrot - command line screenshot utility
 sof-firmware - provides various sound drivers (needed to get audio working on my system)
 sxiv - Simple X Image Viewer (I use this as my primary image viewer while in dwm)
 transset-df - patched version of Xorg's transset with added functionality (I probably don't need this?)
