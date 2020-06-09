@@ -1,0 +1,4 @@
+ncmpcpp_directory = "~/.config/ncmpcpp"
+lyrics_directory  = "~/.local/share/lyrics"
+mpd_music_dir     = "/mnt/windows/d/Music"
+song_status_format = $b{{$8"%t"}} $3by {$4%a{ $3in $7%b{ (%y)}} $3}|{$8%f}

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=XSession
+Exec=/usr/local/bin/start-dwm.sh
+TryExec=/usr/local/bin/start-dwm.sh
+DesktopNames=dwm
+Name=dwm

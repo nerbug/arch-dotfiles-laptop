@@ -1,0 +1,4 @@
+#!/bin/sh
+
+charge=$(acpi | cut -d' ' -f4)
+printf " Bat. %s \\n" "$charge"
