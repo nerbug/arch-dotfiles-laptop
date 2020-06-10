@@ -1,4 +1,17 @@
 #!/bin/sh
 
-charge=$(acpi | cut -d' ' -f4)
-printf " Bat. %s \\n" "$charge"
+charge_level=$(acpi | cut -d' ' -f4 | sed "s/.$//")
+if [ "$charge_level" -ge 85 ]; then
+    icon=
+elif [ "$charge_level" -ge 60 ]; then
+    icon=
+elif [ "$charge_level" -ge 35 ]; then
+    icon=
+elif [ "$charge_level" -ge 10 ]; then
+    icon=
+else
+    icon=
+fi
+
+printf " %s  %03d%% \\n" "$icon" "$charge_level"
+

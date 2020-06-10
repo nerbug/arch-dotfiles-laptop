@@ -22,8 +22,9 @@ Various dotfiles and settings for my Manjaro Linux installation.
 * `dwm` startup script in `/usr/local/bin/start-dwm.sh`
 * Session configuration for `dwm` in `/usr/share/xsessions/dwm.desktop`. This allows setting the environment I want to log in to (`dwm` or KDE) at my login prompt.
 * Fonts that are required:
-    * Liberation Mono (for `dwm` and `st`). Should be installed by default
+    * Liberation Mono (for `st`). Should be installed by default
     * Helvetica Neue (for `mpv` subtitles). To use a different font, replace `sub-font` in `~/.config/mpv/mpv.conf`
+    * Hack Nerd Font (for `dwm`). Available at https://www.nerdfonts.com
 
 # Screenshots (will probably become out of date soon, as I change the setup)
 ## KDE

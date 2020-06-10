@@ -1,3 +1,11 @@
 #!/bin/sh
 
-amixer sget Master | awk -F"[][]" '/%/ { print " Vol. " $2 " [" $4 "] " }' | sed 1q
+volume_line=$(amixer sget Master | awk -F"[][]" '/%/ { print $2, $4 }' | sed 1q)
+current_volume=$(cut -d' ' -f1 <<< "$volume_line")
+on_off=$(cut -d' ' -f2 <<< "$volume_line")
+if [ "$on_off" == "on" ]; then
+    icon=
+else
+    icon=ﱝ
+fi
+printf " %s  %02d%% \\n" "$icon" "$current_volume"
