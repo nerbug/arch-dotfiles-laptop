@@ -16,9 +16,11 @@ mpv
 ncmpcpp
 neofetch
 neovim
+pcmanfm-gtk3
 peaclock
 pulsemixer
 python-pywal
+qt5-styleplugins
 scrot
 sof-firmware
 sxiv

@@ -16,9 +16,11 @@ mpv - minimalist media player
 ncmpcpp - ncurses-based music player daemon (mpd) client
 neofetch - fast, highly customizable system info script
 neovim - fork of vim
+pcmanfm-gtk3 - GUI file manager, alternative to Dolphin (KDE's file manager)
 peaclock - customizable clock, timer and stopwatch for the terminal
 pulsemixer - ncurses mixer for Pulseaudio
 python-pywal - generate and change color schemes from images (for example, wallpapers) on the fly
+qt5-styleplugins - some additional style plugins for Qt5 applications (I use this to make Qt5 applications have the same color scheme as non-Qt applications in dwm)
 scrot - command line screenshot utility
 sof-firmware - provides various sound drivers (needed to get audio working on my system)
 sxiv - Simple X Image Viewer (I use this as my primary image viewer while in dwm)
