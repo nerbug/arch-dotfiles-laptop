@@ -26,8 +26,8 @@ Various dotfiles and settings for my Manjaro Linux installation.
     * Helvetica Neue (for `mpv` subtitles). To use a different font, replace `sub-font` in `~/.config/mpv/mpv.conf`
     * Hack Nerd Font (for `dwm`). Available at https://www.nerdfonts.com
 
-# Screenshots (will probably become out of date soon, as I change the setup)
+# Screenshots (may become out of date if I change my setup)
 ## KDE
 ![KDE screenshot](https://i.imgur.com/BbsYMKn.png "KDE screenshot")
 ## dwm
-![dwm screenshot](https://i.imgur.com/gH1AFdY.png "dwm screenshot")
+![dwm screenshot](https://i.imgur.com/ZAuEKCG.png "dwm screenshot")
