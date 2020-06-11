@@ -1,6 +1,6 @@
 #!/bin/sh
 
-charge_level=$(acpi | cut -d' ' -f4 | sed "s/.$//")
+charge_level=$(cat /sys/class/power_supply/BAT0/capacity)
 if [ "$charge_level" -ge 85 ]; then
     icon=
 elif [ "$charge_level" -ge 60 ]; then
