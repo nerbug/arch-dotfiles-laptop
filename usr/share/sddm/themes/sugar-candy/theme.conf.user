@@ -2,7 +2,8 @@ Background="Backgrounds/abstract.jpg"
 ScreenWidth="1920"
 ScreenHeight="1080"
 
-AccentColor="#9600ff"
+AccentColor="#3750ce"
+BackgroundColor="#293eab"
 Font="Helvetica Neue"
 
 ForceHideCompletePassword="true"
