@@ -100,6 +100,7 @@ static Key keys[] = {
 	{ 0, XF86XK_AudioLowerVolume, spawn, SHCMD("pulsemixer --change-volume -5; kill -44 $(pidof dwmblocks)") },
 	{ 0, XF86XK_MonBrightnessUp, spawn, SHCMD("xbacklight -inc 5") },
 	{ 0, XF86XK_MonBrightnessDown, spawn, SHCMD("xbacklight -dec 5") },
+	{ MODKEY|ShiftMask,             XK_l, spawn, SHCMD("toggle-keyboard-layout; kill -45 $(pidof dwmblocks)") },
 	TAGKEYS(                        XK_1,                      0)
 	TAGKEYS(                        XK_2,                      1)
 	TAGKEYS(                        XK_3,                      2)

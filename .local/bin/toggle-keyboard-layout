@@ -1,0 +1,8 @@
+#!/bin/sh
+
+current_layout=$(setxkbmap -query | grep layout | cut -d' ' -f6)
+if [ "$current_layout" == "us" ]; then
+    setxkbmap lt
+else
+    setxkbmap us
+fi

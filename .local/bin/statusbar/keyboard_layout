@@ -1,0 +1,4 @@
+#!/bin/sh
+
+current_layout=$(setxkbmap -query | grep layout | cut -d' ' -f6)
+echo "   $current_layout "
