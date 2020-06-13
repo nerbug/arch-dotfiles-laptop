@@ -16,6 +16,8 @@ mpv - minimalist media player
 ncmpcpp - ncurses-based music player daemon (mpd) client
 neofetch - fast, highly customizable system info script
 neovim - fork of vim
+optimus-manager - provides a solution for GPU switching on Optimus laptops
+optimus-manager-qt - provides a system tray applet for optimus-manager
 pcmanfm-gtk3 - GUI file manager, alternative to Dolphin (KDE's file manager)
 peaclock - customizable clock, timer and stopwatch for the terminal
 pulsemixer - ncurses mixer for Pulseaudio
@@ -29,6 +31,7 @@ thermald - thermal management daemon (probably don't need this either)
 visual-studio-code-bin - Visual Studio Code
 xclip - command line interface for selections
 xcompmgr - X compositor (needed to have transparent terminals in dwm)
+xf86-video-nouveau - provides 2D acceleration in Xorg when running with the Nouveau driver
 xorg-server-bug865 - Xorg X server with the patch for freedesktop bug 865 (need to kick hotkeys on release, not press) (really only relevant for KDE on my system, as this patch makes it so that keyboard layouts change when I release Left Ctrl+Left Shift, not when I press them)
 xorg-xev - prints contents of X events (sometimes nice to have)
 xwallpaper - wallpaper setting utility for X (again, only relevant for dwm, but I mainly use python-pywal for setting my wallpaper, as that also updates the colorscheme based on that wallpaper)

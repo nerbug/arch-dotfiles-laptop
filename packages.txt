@@ -16,6 +16,8 @@ mpv
 ncmpcpp
 neofetch
 neovim
+optimus-manager
+optimus-manager-qt
 pcmanfm-gtk3
 peaclock
 pulsemixer
@@ -29,6 +31,7 @@ thermald
 visual-studio-code-bin
 xclip
 xcompmgr
+xf86-video-nouveau
 xorg-server-bug865
 xorg-xev
 xwallpaper
