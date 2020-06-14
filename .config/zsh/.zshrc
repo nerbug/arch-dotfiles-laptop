@@ -67,6 +67,8 @@ alias grep='grep --color=auto'
 alias mkdir='mkdir -pv'
 alias rm='rm -Iv'
 alias v="nvim"
+# https://linuxhandbook.com/run-alias-as-sudo/
+alias sudo="sudo "
 
 # Set terminal colors from pywal if the currently running desktop environment is dwm
 if [[ "$XDG_CURRENT_DESKTOP" == "dwm" ]]; then
