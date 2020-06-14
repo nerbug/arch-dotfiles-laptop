@@ -1,0 +1,16 @@
+#!/bin/sh
+
+# This script does the following:
+#
+# If the script was launched with no arguments, then this script opens up a dmenu
+# of all of the available man pages on the system. After the user chooses a man page
+# from the dmenu, the script shows a PDF version of that chosen man page in zathura.
+#
+# If the script was launched with a man page argument, then the script immediately
+# shows a PDF version of that man page.
+
+if [ -z "$1" ]; then
+    man -k . | dmenu -l 40 | cut -d' ' -f1 | xargs -r man -Tpdf | zathura -
+else
+    man -Tpdf "$1" | zathura -
+fi
