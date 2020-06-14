@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# Does the same thing as play-video, except launches the file list in fzf instead.
+
+find ~/Videos -type f -follow | fzf | xargs -I {} mpv -quiet "{}" >/dev/null 2>&1

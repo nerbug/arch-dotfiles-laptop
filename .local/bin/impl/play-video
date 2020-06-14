@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# Opens a list of all files in the Videos directory in dmenu. When a video file is selected,
+# the file is launched in mpv.
+
+find ~/Videos -type f -follow | dmenu -l 40 | xargs -I {} mpv -quiet "{}" >/dev/null 2>&1
