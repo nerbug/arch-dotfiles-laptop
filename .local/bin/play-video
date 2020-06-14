@@ -1,0 +1,7 @@
+#!/bin/sh
+
+video=$(find ~/Videos -type f -follow | dmenu -l 40)
+# Don't launch mpv directly but rather launch an instance of st instead, then launch mpv in that.
+# For whatever reason, this fixes the issue where mpv, when launched directly from dmenu, doesn't
+# take up a whole "tile" on the desktop.
+st -e mpv -quiet "$video" >/dev/null 2>&1
