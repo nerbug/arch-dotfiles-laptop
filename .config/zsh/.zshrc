@@ -77,7 +77,7 @@ fi
 
 # Theming section  
 autoload -U compinit colors zcalc
-compinit -d
+compinit -d ~/.cache/zsh/zcompdump-$ZSH_VERSION
 colors
 
 # enable substitution for prompt
