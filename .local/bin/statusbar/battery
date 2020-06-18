@@ -1,12 +1,22 @@
 #!/bin/sh
 
 charge_level=$(cat /sys/class/power_supply/BAT0/capacity)
-if [ "$charge_level" -ge 85 ]; then
+if [ "$charge_level" -ge 90 ]; then
     icon=
+elif [ "$charge_level" -ge 80 ]; then
+    icon=
+elif [ "$charge_level" -ge 70 ]; then
+    icon=
 elif [ "$charge_level" -ge 60 ]; then
     icon=
-elif [ "$charge_level" -ge 35 ]; then
+elif [ "$charge_level" -ge 50 ]; then
+    icon=
+elif [ "$charge_level" -ge 40 ]; then
     icon=
+elif [ "$charge_level" -ge 30 ]; then
+    icon=
+elif [ "$charge_level" -ge 20 ]; then
+    icon=
 elif [ "$charge_level" -ge 10 ]; then
     icon=
 else
