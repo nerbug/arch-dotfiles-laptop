@@ -27,7 +27,6 @@ scrot
 sof-firmware
 sxiv
 transset-df
-thermald
 visual-studio-code-bin
 xclip
 xcompmgr

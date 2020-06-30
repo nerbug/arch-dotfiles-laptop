@@ -27,7 +27,6 @@ scrot - command line screenshot utility
 sof-firmware - provides various sound drivers (needed to get audio working on my system)
 sxiv - Simple X Image Viewer (I use this as my primary image viewer while in dwm)
 transset-df - patched version of Xorg's transset with added functionality (I probably don't need this?)
-thermald - thermal management daemon (probably don't need this either)
 visual-studio-code-bin - Visual Studio Code
 xclip - command line interface for selections
 xcompmgr - X compositor (needed to have transparent terminals in dwm)
