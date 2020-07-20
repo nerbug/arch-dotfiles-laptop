@@ -1,0 +1,4 @@
+For devices which contain an Intel Cannon Lake PCH cAVS audio adapter (like my laptop) and maybe some others, you may need to add:
+    - snd_hda_intel.dmic_detect=0 to the GRUB_CMDLINE_LINUX_DEFAULT line and 
+    - re-run sudo grub-mkconfig -o /boot/grub/grub.cfg
+in order to get sound back (just installing the sof-firmware package doesn't seem to cut it anymore, at least for me)
