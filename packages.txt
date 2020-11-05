@@ -16,6 +16,7 @@ ncmpcpp
 neofetch
 neovim
 optimus-manager
+pavucontrol
 pcmanfm-gtk3
 pulsemixer
 python-pywal
