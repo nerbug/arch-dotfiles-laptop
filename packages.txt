@@ -6,6 +6,7 @@ dmenu
 elisa
 feh
 gamemode
+hw-probe
 keepassxc
 lib32-gamemode
 maim
