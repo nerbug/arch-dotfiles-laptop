@@ -13,10 +13,11 @@ Various dotfiles and settings for my Manjaro Linux installation.
         * `swallow` - adds window swallowing functionality. As an example, starting `mpv` or `sxiv` will now "hide" the terminal window that started that process. This patch helps users spawning a lot of graphical programs from their command line by avoiding cluttering the screen with many unusable terminals.
 * `dwmblocks` - modular status bar for dwm (https://github.com/torrinfail/dwmblocks)
 * `st` (simple terminal):
-    * Version 0.8.3
+    * Version 0.8.4
     * Patches that I've applied:
         * `alpha` - allows the user to have transparent terminals (requires `xcompmgr` or some other X compositor, such as `picom` to be running in the background, the startup script takes care of that)
         * `anysize` - smoothly changes the terminal's window size when adjusting window gaps
+	* `clipboard` - sets the clipboard, rather than the primary buffer on selection (text from the clipboard can be pasted by clicking the scroll wheel)
         * `scrollback` - allows the user to scrollback the terminal output. I've also applied the `scrollback-mouse` patch so that I can scroll the terminal output back and forth using Shift and mouse wheel (by default)
 * Rule, which allows setting the backlight by any user in the `video` group without requiring root access is in `/etc/udev/rules.d/90-backlight.rules`. This rule is needed to make the backlight keys work in `dwm`. You can add a user to the `video` group with `sudo gpasswd -a <user> video`
 * `dwm` startup script in `/usr/local/bin/start-dwm.sh`
