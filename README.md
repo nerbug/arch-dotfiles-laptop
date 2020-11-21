@@ -11,6 +11,12 @@ Various dotfiles and settings for my Manjaro Linux installation.
         * `fullgaps` - adds gaps between windows and allows to configure them at run-time.
         * `shiftview` - allows the user to rotate the currently selected tag (http://lists.suckless.org/dev/1104/7590.html)
         * `swallow` - adds window swallowing functionality. As an example, starting `mpv` or `sxiv` will now "hide" the terminal window that started that process. This patch helps users spawning a lot of graphical programs from their command line by avoiding cluttering the screen with many unusable terminals.
+        * `restartsig` - allows `dwm` to be restarted with a keybinding (default: `MOD` + `CTRL` + `SHIFT` + `Q`)
+        * `attachaside` - new clients (windows) appear in the stack rather than in the master
+        * `cyclelayouts` - cycle through all available layouts using keybindings (defaults: `MOD` + `CTRL` + `,` and `MOD` + `CTRL` + `.`)
+        * `gridmode` - adds an extra layout called `grid` in which the windows are arranged in a grid of equal sizes
+        * `rotatestack` - rotates a window through the stack, in either direction (defaults: `MOD` + `SHIFT` + `j` and `MOD` + `SHIFT` + `k`)
+        * `statuspadding` - horizontal and vertical padding in the status bar are now configurable options
 * `dwmblocks` - modular status bar for dwm (https://github.com/torrinfail/dwmblocks)
 * `dmenu`:
     * Version 5.0
