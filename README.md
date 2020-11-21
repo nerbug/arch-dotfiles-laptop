@@ -4,7 +4,7 @@ Various dotfiles and settings for my Manjaro Linux installation.
 * Scripts for my `dwm` status bar are in `~/.local/bin/statusbar/`
 * Wallpaper setting script in `~/.local/bin/setbg`. This script is also used by `dwm` at startup to automatically set the wallpaper and color scheme. See the script for more info.
 * Settings for various programs, such as `zsh`, `mpv` and so on, are in `~/.config/`
-* Source code for `dwm`, `dwmblocks` (the status bar) and `st` (simple terminal) that I use are in `~/.config/suckless/`
+* Source code for `dwm`, `dwmblocks` (the status bar), `dmenu` and `st` (simple terminal) that I use are in `~/.config/suckless/`
 * `dwm`:
     * Version 6.2
     * Patches that I've applied:
@@ -12,6 +12,15 @@ Various dotfiles and settings for my Manjaro Linux installation.
         * `shiftview` - allows the user to rotate the currently selected tag (http://lists.suckless.org/dev/1104/7590.html)
         * `swallow` - adds window swallowing functionality. As an example, starting `mpv` or `sxiv` will now "hide" the terminal window that started that process. This patch helps users spawning a lot of graphical programs from their command line by avoiding cluttering the screen with many unusable terminals.
 * `dwmblocks` - modular status bar for dwm (https://github.com/torrinfail/dwmblocks)
+* `dmenu`:
+    * Version 5.0
+    * Patches that I've applied:
+        * `borderoption` (under `border` patch) - adds border around the `dmenu` window
+        * `center` - centers `dmenu` in the middle of the screen
+        * `fuzzymatch` - adds support for fuzzy-matching
+        * `grid` - adds the ability to render `dmenu`'s entries in a grid (`-g`)
+        * `lineheight` - adds a flag (`-h`) to set the minimum height of `dmenu` lines
+        * `numbers` - adds text which displays the number of matched and total items in the top right corner
 * `st` (simple terminal):
     * Version 0.8.4
     * Patches that I've applied:

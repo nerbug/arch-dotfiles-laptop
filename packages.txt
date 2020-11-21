@@ -2,7 +2,6 @@ acpilight
 base-devel (very important for building some AUR packages)
 cmake
 cpupower
-dmenu
 elisa
 feh
 gamemode
