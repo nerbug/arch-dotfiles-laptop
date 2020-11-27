@@ -18,13 +18,13 @@ neovim
 optimus-manager
 pavucontrol
 pcmanfm-gtk3
+picom
 pulsemixer
 python-pywal
 qt5-styleplugins
 sof-firmware
 sxiv
 xclip
-xcompmgr
 xf86-video-nouveau
 xorg-xev
 xwallpaper

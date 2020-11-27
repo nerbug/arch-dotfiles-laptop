@@ -6,6 +6,6 @@ export TERM=st
 export QT_STYLE_OVERRIDE=gtk2
 
 setbg &
-xcompmgr &
+picom &
 dwmblocks &
 exec dwm
