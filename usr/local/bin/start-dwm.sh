@@ -6,7 +6,7 @@ export TERM=st
 export QT_STYLE_OVERRIDE=gtk2
 
 setbg &
-picom &
+(sleep 1 && picom) &
 dwmblocks &
 /usr/lib/polkit-kde-authentication-agent-1 &
 exec dwm
