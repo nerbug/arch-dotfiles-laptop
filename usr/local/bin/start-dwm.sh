@@ -9,4 +9,5 @@ setbg &
 (sleep 1 && picom) &
 dwmblocks &
 /usr/lib/polkit-kde-authentication-agent-1 &
+xrdb ~/.config/x11/Xresources
 exec dwm
