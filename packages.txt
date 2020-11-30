@@ -20,7 +20,6 @@ pavucontrol
 pcmanfm-gtk3
 pulsemixer
 python-pywal
-qt5-styleplugins
 sof-firmware
 sxiv
 xclip
