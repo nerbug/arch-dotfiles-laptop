@@ -46,4 +46,4 @@ Various dotfiles and settings for my Manjaro Linux installation.
 ## KDE
 ![KDE screenshot](https://i.imgur.com/BbsYMKn.png "KDE screenshot")
 ## dwm
-![dwm screenshot](https://i.imgur.com/ZAuEKCG.png "dwm screenshot")
+![dwm screenshot (floating layout)](https://i.imgur.com/krR8uzs.png "dwm screenshot")
