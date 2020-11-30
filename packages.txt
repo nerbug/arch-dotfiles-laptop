@@ -18,7 +18,6 @@ neovim
 optimus-manager
 pavucontrol
 pcmanfm-gtk3
-picom
 pulsemixer
 python-pywal
 qt5-styleplugins
@@ -38,6 +37,7 @@ cpupower-gui
 nerd-fonts-hack
 optimus-manager-qt
 peaclock
+picom-git
 xorg-server-bug865
 ^^^ for xorg-server-bug865, copy .gnupg/gpg.conf to home dir before install or else you may get a keyserver error
 ^^^ (don't know if that has been fixed yet)
