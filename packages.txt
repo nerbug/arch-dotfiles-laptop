@@ -38,4 +38,10 @@ cpupower-gui
 nerd-fonts-hack
 optimus-manager-qt
 peaclock
-xorg-server-bug865 (copy .gnupg/gpg.conf to home dir before install or else you might receive a keyserver error)
+xorg-server-bug865
+^^^ for xorg-server-bug865, copy .gnupg/gpg.conf to home dir before install or else you may get a keyserver error
+^^^ (don't know if that has been fixed yet)
+^^^ also, as of 2020-11-22, the PKGBUILD for xorg-server-bug865 contains an empty pgp key!
+^^^ download the PKGBUILD with yay -G xorg-server-bug865 then cd into the created directory
+^^^ and delete the empty key from validpgpkeys
+^^^ then, run makepkg -rsi
