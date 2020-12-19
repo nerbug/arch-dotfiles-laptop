@@ -1,13 +1,13 @@
-# Manjaro dotfiles
-Various dotfiles and settings for my Manjaro Linux installation.
+# Arch Linux dotfiles
+Various dotfiles, scripts and other config files for my Arch Linux installation.
 
-* Scripts for my `dwm` status bar are in `~/.local/bin/statusbar/`
-* Wallpaper setting script in `~/.local/bin/setbg`. This script is also used by `dwm` at startup to automatically set the wallpaper and color scheme. See the script for more info.
-* Settings for various programs, such as `zsh`, `mpv` and so on, are in `~/.config/`
-* Source code for `dwm`, `dwmblocks` (the status bar), `dmenu` and `st` (simple terminal) that I use are in `~/.config/suckless/`
+* Various scripts in `.local/bin/` (setting the wallpaper, video playback from the `~/Videos` directory using `mpv`, status bar blocks, etc.) Make sure to set them as executable with `chmod u+x` if they already aren't.
+* Wallpaper setting script in `.local/bin/setbg` which sets the wallpaper using `feh` and a fitting color scheme with `python-pywal`. This script is also ran at `dwm` startup, using the image at `~/.config/dwm-background` as the wallpaper (the file can also be a symlink as well).
+* Settings for various programs, such as `zsh`, `mpv` and so on, are in `.config/`.
+* Source code for `dwm`, `dwmblocks` (the status bar), `dmenu` and `st` with various patches applied are in `.config/suckless/`
 * `dwm`:
     * Version 6.2
-    * Patches that I've applied:
+    * Applied patches:
         * `fullgaps` - adds gaps between windows and allows to configure them at run-time.
         * `shiftview` - allows the user to rotate the currently selected tag (http://lists.suckless.org/dev/1104/7590.html)
         * `swallow` - adds window swallowing functionality. As an example, starting `mpv` or `sxiv` will now "hide" the terminal window that started that process. This patch helps users spawning a lot of graphical programs from their command line by avoiding cluttering the screen with many unusable terminals.
@@ -20,7 +20,7 @@ Various dotfiles and settings for my Manjaro Linux installation.
 * `dwmblocks` - modular status bar for dwm (https://github.com/torrinfail/dwmblocks)
 * `dmenu`:
     * Version 5.0
-    * Patches that I've applied:
+    * Applied patches:
         * `borderoption` (under `border` patch) - adds border around the `dmenu` window
         * `center` - centers `dmenu` in the middle of the screen
         * `fuzzymatch` - adds support for fuzzy-matching
@@ -29,21 +29,22 @@ Various dotfiles and settings for my Manjaro Linux installation.
         * `numbers` - adds text which displays the number of matched and total items in the top right corner
 * `st` (simple terminal):
     * Version 0.8.4
-    * Patches that I've applied:
+    * Applied patches:
         * `alpha` - allows the user to have transparent terminals (requires `xcompmgr` or some other X compositor, such as `picom` to be running in the background, the startup script takes care of that)
         * `anysize` - smoothly changes the terminal's window size when adjusting window gaps
         * `clipboard` - sets the clipboard, rather than the primary buffer on selection (text from the clipboard can be pasted by clicking the scroll wheel)
         * `scrollback` - allows the user to scrollback the terminal output. I've also applied the `scrollback-mouse` patch so that I can scroll the terminal output back and forth using Shift and mouse wheel (by default)
-* Rule, which allows setting the backlight by any user in the `video` group without requiring root access is in `/etc/udev/rules.d/90-backlight.rules`. This rule is needed to make the backlight keys work in `dwm`. You can add a user to the `video` group with `sudo gpasswd -a <user> video`
+* Normally, setting the monitor brightness using `acpilight` (or `xorg-xbacklight`) requires root access. This is not ideal when you have a minimal WM environment (like `dwm`) and you set up the ability to make the backlight dimmer or brighter using the monitor brightness up and down keys on the keyboard. However, there is a `udev` rule, which allows setting the backlight by any user in the `video` group without requiring root access. It is in `etc/udev/rules.d/90-backlight.rules`. You can add a user to the `video` group with `sudo gpasswd -a <user> video`
 * `dwm` startup script in `/usr/local/bin/start-dwm.sh`
-* Session configuration for `dwm` in `/usr/share/xsessions/dwm.desktop`. This allows setting the environment I want to log in to (`dwm` or KDE) at my login prompt.
+* Session configuration for `dwm` in `/usr/share/xsessions/dwm.desktop`. This allows setting my session to use `dwm` at the login prompt (in my case, `SDDM`).
+* Config file for SDDM's `Sugar Candy` theme in `usr/share/sddm/themes/sugar-candy/`.
 * Fonts that are required:
-    * Liberation Mono (for `st`). Should be installed by default
-    * Helvetica Neue (for `mpv` subtitles). To use a different font, replace `sub-font` in `~/.config/mpv/mpv.conf`
-    * Hack Nerd Font (for `dwm`). Available at https://www.nerdfonts.com
-
-# Screenshots (may become out of date if I change my setup)
+    * Liberation Mono (for `st`). Package: `ttf-liberation`
+    * Helvetica Neue (for `mpv` subtitles). To use a different font, replace `sub-font` in `.config/mpv/mpv.conf`. Copied over from my Windows install (https://wiki.archlinux.org/index.php/Microsoft_fonts#Using_fonts_from_a_Windows_partition). I also use Helvetica Neue all across my KDE environment (did not push the config files for them, though, as there way too many of them and you set them up using the GUI anyway).
+    * Hack Nerd Font (for `dwm`). Available at https://www.nerdfonts.com or by installing `nerd-fonts-hack` from the AUR.
+* List of all explicitly installed packages on my system (with `pacman -Qe`) are in `pkglist.txt`. I use `paru` as my AUR helper.
+# Screenshots
 ## KDE
-![KDE screenshot](https://i.imgur.com/BbsYMKn.png "KDE screenshot")
+![KDE screenshot](https://i.imgur.com/5UhDyDd.png "KDE screenshot")
 ## dwm (floating layout)
 ![dwm screenshot (floating layout)](https://i.imgur.com/krR8uzs.png "dwm screenshot (floating layout)")

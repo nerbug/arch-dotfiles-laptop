@@ -1,6 +1,6 @@
 #!/bin/sh
 
-export QT_STYLE_OVERRIDE=Breeze
+export XDG_CURRENT_DESKTOP=KDE
 
 setbg &
 (sleep 1 && picom --experimental-backends) &
