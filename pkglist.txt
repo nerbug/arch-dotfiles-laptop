@@ -1,220 +1,220 @@
-acpilight 1.2-2
-aic94xx-firmware 30-9
-alsa-utils 1.2.4-2
-ark 20.12.0-1
-asp 6-2
-autoconf 2.69-7
-automake 1.16.2-3
-base 2-2
-bat 0.17.1-1
-binutils 2.35.1-1
-bison 3.7.2-1
-bluedevil 1:5.20.4-1
-bluez-utils 5.55-1
-breeze 5.20.4-1
-breeze-gtk 5.20.4-1
-dkms 2.8.4-1
-dolphin 20.12.0-2
-drkonqi 5.20.4-1
-efibootmgr 17-2
-elisa 20.12.0-1
-fakeroot 1.25.3-1
-feh 3.6.1-1
-ffmpegthumbs 20.12.0-1
-file 5.39-1
-findutils 4.7.0-2
-firefox 84.0-1
-flex 2.6.4-3
-fzf 0.24.4-1
-gamemode 1.6-9
-gawk 5.1.0-1
-gcc 10.2.0-4
-gettext 0.21-1
-git 2.29.2-1
-grep 3.6-1
-groff 1.22.4-3
-grub 2:2.04-8
-gst-libav 1.18.2-1
-gst-plugins-bad 1.18.2-1
-gst-plugins-base 1.18.2-1
-gst-plugins-good 1.18.2-1
-gst-plugins-ugly 1.18.2-1
-gstreamer 1.18.2-1
-gwenview 20.12.0-1
-gzip 1.10-3
-htop 3.0.3-1
-intel-gpu-tools 1.25-2
-intel-ucode 20201118-1
-kactivitymanagerd 5.20.4-1
-kate 20.12.0-1
-kcalc 20.12.0-1
-kcron 20.12.0-1
-kde-cli-tools 5.20.4-1
-kdecoration 5.20.4-1
-kdegraphics-thumbnailers 20.12.0-1
-kdeplasma-addons 5.20.4-1
-keepassxc 2.6.2-1
-kgamma5 5.20.4-1
-khelpcenter 20.12.0-1
-khotkeys 5.20.4-1
-kimageformats 5.77.0-1
-kinfocenter 5.20.4-1
-kmenuedit 5.20.4-1
-knetattach 5.20.4-2
-konsole 20.12.0-1
-kscreen 5.20.4-1
-kscreenlocker 5.20.4-1
-ksshaskpass 5.20.4-1
-ksysguard 5.20.4-1
-ksystemlog 20.12.0-1
-kwallet-pam 5.20.4-1
-kwalletmanager 20.12.0-1
-kwayland-integration 5.20.4-1
-kwayland-server 5.20.4-1
-kwin 5.20.4-1
-kwrited 5.20.4-1
-lib32-gamemode 1.6-10
-lib32-mesa 20.3.0-1
-lib32-nvidia-utils 455.45.01-1
-libkscreen 5.20.4-1
-libksysguard 5.20.4-1
-libtool 2.4.6+42+gb88cebd5-14
-libva-intel-driver 2.4.1-1
-libva-utils 2.9.1-1
-libva-vdpau-driver 0.7.4-5
-linux-firmware 20201120.bc9cd0b-1
-linux-zen 5.9.14.zen1-1
-linux-zen-docs 5.9.14.zen1-1
-linux-zen-headers 5.9.14.zen1-1
-lrzip 0.631-3
-lxappearance-gtk3 0.6.3-4
-lzop 1.04-3
-m4 1.4.18-3
-maim 5.6.3-2
-make 4.3-3
-man-db 2.9.3-1
-man-pages 5.09-2
-milou 5.20.4-1
-mlocate 0.26.git.20170220-5
-mpd 0.22.3-1
-mpv 1:0.33.0-3
-nano 5.4-1
-ncmpcpp 0.8.2-14
-neofetch 7.1.0-2
-neovim 0.4.4-1
-nerd-fonts-hack 2.1.0-3
-networkmanager 1.26.4-1
-noto-fonts 20201206-1
-noto-fonts-emoji 20200916-1
-ntfs-3g 2017.3.23-5
-nvidia-dkms 455.45.01-1
-okular 20.12.0-1
-optimus-manager 1.3.1-1
-optimus-manager-qt 1.5.3-1
-os-prober 1.77-2
-oxygen 5.20.4-1
-p7zip 16.02-6
-packagekit-qt5 1.0.2-1
-pacman 5.2.2-1
-partitionmanager 20.12.0-1
-paru-bin 1.1.3-1
-patch 2.7.6-8
-pbzip2 1.1.13-3
-pcmanfm-gtk3 1.3.1-2
-peaclock 0.4.2-1
-picom-git 1567_Next.5.gb66e5fd_2020.12.18-1
-pigz 2.4-2
-pkgconf 1.7.3-1
-plasma-browser-integration 5.20.4-1
-plasma-desktop 5.20.4-2
-plasma-disks 5.20.4-1
-plasma-integration 5.20.4-1
-plasma-nm 5.20.4-1
-plasma-pa 5.20.4-1
-plasma-sdk 5.20.4-1
-plasma-thunderbolt 5.20.4-1
-plasma-vault 5.20.4-1
-plasma-workspace 5.20.4-1
-plasma-workspace-wallpapers 5.20.4-1
-polkit-kde-agent 5.20.4-1
-powerdevil 5.20.4-1
-pulseaudio 14.0-1
-pulseaudio-alsa 1:1.2.2-2
-pulsemixer 1.5.1-2
-python-pywal 3.3.0-3
-qt5-imageformats 5.15.2-1
-rsync 3.2.3-1
-sddm-kcm 5.20.4-1
-sed 4.8-1
-sof-firmware 1.6-3
-spectacle 20.12.0-1
-steam 1.0.0.68-1
-sudo 1.9.4-2
-sxiv 26-1
-systemsettings 5.20.4-1
-texinfo 6.7-3
-ttf-liberation 2.1.1-1
-unarchiver 1.10.7-1
-unrar 1:6.0.3-1
-upd72020x-fw 20200826-3
-vulkan-intel 20.3.0-3
-wd719x-firmware 1-7
-which 2.21-5
-wqy-zenhei 0.9.45-8
-xclip 0.13-3
-xdg-desktop-portal-kde 5.20.4-1
-xdg-user-dirs 0.17-3
-xf86-video-intel 1:2.99.917+913+g9236c582-1
-xf86-video-nouveau 1.0.16-2
-xf86-video-vesa 2.5.0-1
-xorg-bdftopcf 1.1-2
-xorg-docs 1.7.1-3
-xorg-font-util 1.3.2-2
-xorg-fonts-100dpi 1.0.3-7
-xorg-fonts-75dpi 1.0.3-7
-xorg-fonts-encodings 1.0.5-2
-xorg-iceauth 1.0.8-2
-xorg-mkfontscale 1.2.1-2
-xorg-server-bug865 1.20.10-3
-xorg-server-common 1.20.10-3
-xorg-server-devel 1.20.10-3
-xorg-server-xephyr 1.20.10-3
-xorg-server-xnest 1.20.10-3
-xorg-server-xvfb 1.20.10-3
-xorg-sessreg 1.1.2-2
-xorg-setxkbmap 1.3.2-2
-xorg-smproxy 1.0.6-3
-xorg-x11perf 1.6.1-2
-xorg-xauth 1.1-2
-xorg-xcmsdb 1.0.5-3
-xorg-xcursorgen 1.0.7-2
-xorg-xdpyinfo 1.3.2-4
-xorg-xdriinfo 1.0.6-2
-xorg-xev 1.2.4-1
-xorg-xgamma 1.0.6-3
-xorg-xhost 1.0.8-2
-xorg-xinit 1.4.1-3
-xorg-xinput 1.6.3-2
-xorg-xkbcomp 1.4.4-1
-xorg-xkbevd 1.1.4-3
-xorg-xkbutils 1.0.4-4
-xorg-xkill 1.0.5-2
-xorg-xlsatoms 1.1.3-2
-xorg-xlsclients 1.1.4-2
-xorg-xmodmap 1.0.10-2
-xorg-xpr 1.0.5-2
-xorg-xprop 1.2.5-1
-xorg-xrandr 1.5.1-2
-xorg-xrdb 1.2.0-2
-xorg-xrefresh 1.0.6-2
-xorg-xset 1.2.4-2
-xorg-xsetroot 1.1.2-2
-xorg-xvinfo 1.1.4-2
-xorg-xwayland 1.20.0.r800.ge4a9f0bb4-1
-xorg-xwd 1.0.7-2
-xorg-xwininfo 1.1.5-2
-xorg-xwud 1.0.5-2
-zathura 0.4.7-1
-zathura-pdf-mupdf 0.3.6-2
-zsh 5.8-1
-zsh-syntax-highlighting 0.7.1-1
+acpilight
+aic94xx-firmware
+alsa-utils
+ark
+asp
+autoconf
+automake
+base
+bat
+binutils
+bison
+bluedevil
+bluez-utils
+breeze
+breeze-gtk
+dkms
+dolphin
+drkonqi
+efibootmgr
+elisa
+fakeroot
+feh
+ffmpegthumbs
+file
+findutils
+firefox
+flex
+fzf
+gamemode
+gawk
+gcc
+gettext
+git
+grep
+groff
+grub
+gst-libav
+gst-plugins-bad
+gst-plugins-base
+gst-plugins-good
+gst-plugins-ugly
+gstreamer
+gwenview
+gzip
+htop
+intel-gpu-tools
+intel-ucode
+kactivitymanagerd
+kate
+kcalc
+kcron
+kde-cli-tools
+kdecoration
+kdegraphics-thumbnailers
+kdeplasma-addons
+keepassxc
+kgamma5
+khelpcenter
+khotkeys
+kimageformats
+kinfocenter
+kmenuedit
+knetattach
+konsole
+kscreen
+kscreenlocker
+ksshaskpass
+ksysguard
+ksystemlog
+kwallet-pam
+kwalletmanager
+kwayland-integration
+kwayland-server
+kwin
+kwrited
+lib32-gamemode
+lib32-mesa
+lib32-nvidia-utils
+libkscreen
+libksysguard
+libtool
+libva-intel-driver
+libva-utils
+libva-vdpau-driver
+linux-firmware
+linux-zen
+linux-zen-docs
+linux-zen-headers
+lrzip
+lxappearance-gtk3
+lzop
+m4
+maim
+make
+man-db
+man-pages
+milou
+mlocate
+mpd
+mpv
+nano
+ncmpcpp
+neofetch
+neovim
+nerd-fonts-hack
+networkmanager
+noto-fonts
+noto-fonts-emoji
+ntfs-3g
+nvidia-dkms
+okular
+optimus-manager
+optimus-manager-qt
+os-prober
+oxygen
+p7zip
+packagekit-qt5
+pacman
+partitionmanager
+paru-bin
+patch
+pbzip2
+pcmanfm-gtk3
+peaclock
+picom-git
+pigz
+pkgconf
+plasma-browser-integration
+plasma-desktop
+plasma-disks
+plasma-integration
+plasma-nm
+plasma-pa
+plasma-sdk
+plasma-thunderbolt
+plasma-vault
+plasma-workspace
+plasma-workspace-wallpapers
+polkit-kde-agent
+powerdevil
+pulseaudio
+pulseaudio-alsa
+pulsemixer
+python-pywal
+qt5-imageformats
+rsync
+sddm-kcm
+sed
+sof-firmware
+spectacle
+steam
+sudo
+sxiv
+systemsettings
+texinfo
+ttf-liberation
+unarchiver
+unrar
+upd72020x-fw
+vulkan-intel
+wd719x-firmware
+which
+wqy-zenhei
+xclip
+xdg-desktop-portal-kde
+xdg-user-dirs
+xf86-video-intel
+xf86-video-nouveau
+xf86-video-vesa
+xorg-bdftopcf
+xorg-docs
+xorg-font-util
+xorg-fonts-100dpi
+xorg-fonts-75dpi
+xorg-fonts-encodings
+xorg-iceauth
+xorg-mkfontscale
+xorg-server-bug865
+xorg-server-common
+xorg-server-devel
+xorg-server-xephyr
+xorg-server-xnest
+xorg-server-xvfb
+xorg-sessreg
+xorg-setxkbmap
+xorg-smproxy
+xorg-x11perf
+xorg-xauth
+xorg-xcmsdb
+xorg-xcursorgen
+xorg-xdpyinfo
+xorg-xdriinfo
+xorg-xev
+xorg-xgamma
+xorg-xhost
+xorg-xinit
+xorg-xinput
+xorg-xkbcomp
+xorg-xkbevd
+xorg-xkbutils
+xorg-xkill
+xorg-xlsatoms
+xorg-xlsclients
+xorg-xmodmap
+xorg-xpr
+xorg-xprop
+xorg-xrandr
+xorg-xrdb
+xorg-xrefresh
+xorg-xset
+xorg-xsetroot
+xorg-xvinfo
+xorg-xwayland
+xorg-xwd
+xorg-xwininfo
+xorg-xwud
+zathura
+zathura-pdf-mupdf
+zsh
+zsh-syntax-highlighting
