@@ -48,5 +48,5 @@ I haven't pushed any of KDE's config files to this, as there are way too many of
 # Screenshots
 ## KDE
 ![KDE screenshot](https://i.imgur.com/5UhDyDd.png "KDE screenshot")
-## dwm (floating layout)
+## dwm
 ![dwm screenshot](https://i.imgur.com/jimJWx6.png "dwm screenshot")
