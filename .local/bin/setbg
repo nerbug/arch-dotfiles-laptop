@@ -4,7 +4,7 @@
 #	Run by itself, set the wallpaper (at X start).
 #	If given a file, set that as the new wallpaper.
 #	If given a directory, choose random file in it.
-#	If wal is installed, also generates a colorscheme.
+#	Also uses wal to set a color scheme based on the wallpaper.
 
 # Location of link to wallpaper link.
 bgloc="${XDG_CONFIG_HOME:-$HOME/.config/}/dwm-background"
@@ -13,5 +13,8 @@ bgloc="${XDG_CONFIG_HOME:-$HOME/.config/}/dwm-background"
 
 [ -d "$1" ] && ln -sf "$(find "$(readlink -f "$1")" -iregex '.*.\(jpg\|jpeg\|png\|gif\)' -type f | shuf -n 1)" "$bgloc"
 
-# If pywal is installed, use it.
-wal -i "$(readlink -f "$bgloc")" -o "${XDG_CONFIG_HOME:-$HOME/.config}/wal/postrun" >/dev/null 2>&1 
+# Set color scheme using wal
+wal -i "$(readlink -f "$bgloc")" -n -q
+
+# Set background using feh
+feh --bg-scale "$(< "${HOME}/.cache/wal/wal")" --no-fehbg
