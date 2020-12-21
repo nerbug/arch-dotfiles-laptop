@@ -1,7 +1,6 @@
 #!/bin/sh
 
-# Fake QT applications into thinking they are running under KDE, so that it uses KDE's config files.
-# Probably temporary, until I find a less hacky solution.
+# Use settings from KDE for Qt apps (alternatively, setup qt5ct)
 export XDG_CURRENT_DESKTOP=KDE
 
 setbg &
