@@ -1,4 +1,4 @@
 #!/bin/sh
 
-date=$(date +"%c")
+date=$(date +"%F %T")
 printf "   %s " "$date"
