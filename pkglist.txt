@@ -1,4 +1,5 @@
 acpilight
+adobe-source-code-pro-fonts
 aic94xx-firmware
 alsa-utils
 ark
@@ -16,6 +17,7 @@ breeze-gtk
 dkms
 dolphin
 drkonqi
+dunst
 efibootmgr
 elisa
 fakeroot
@@ -103,6 +105,7 @@ ncmpcpp
 neofetch
 neovim
 nerd-fonts-hack
+network-manager-applet
 networkmanager
 noto-fonts
 noto-fonts-emoji

@@ -5,6 +5,8 @@ export XDG_CURRENT_DESKTOP=KDE
 
 dwmblocks &
 setbg &
+dunst &
+nm-applet --indicator &
 (sleep 1 && picom --experimental-backends) &
 /usr/lib/polkit-kde-authentication-agent-1 &
 xrdb ~/.config/x11/Xresources
