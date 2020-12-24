@@ -17,6 +17,7 @@ Various dotfiles, scripts and other config files for my Arch Linux installation.
         * `gridmode` - adds an extra layout called `grid` in which the windows are arranged in a grid of equal sizes
         * `rotatestack` - rotates a window through the stack, in either direction (defaults: `MOD` + `SHIFT` + `j` and `MOD` + `SHIFT` + `k`)
         * `statuspadding` - horizontal and vertical padding in the status bar are now configurable options
+        * `systray` - adds a system tray (applied `dwm-systray-6.2.diff`, NOT `dwm-systray-20200914-61bb8b2.diff` @ https://dwm.suckless.org/patches/systray/)
 * `dwmblocks` - modular status bar for dwm (https://github.com/torrinfail/dwmblocks)
 * `dmenu`:
     * Version 5.0
