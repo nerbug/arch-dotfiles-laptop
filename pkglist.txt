@@ -156,6 +156,7 @@ sudo
 sxiv
 systemsettings
 texinfo
+tlp
 ttf-liberation
 unarchiver
 unrar
