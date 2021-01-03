@@ -40,7 +40,7 @@ Various dotfiles, scripts and other config files for my Arch Linux installation.
 * Session configuration for `dwm` in `/usr/share/xsessions/dwm.desktop`. This allows setting my session to use `dwm` at the login prompt (in my case, `SDDM`).
 * Config file for SDDM's `Sugar Candy` theme in `usr/share/sddm/themes/sugar-candy/`.
 * Fonts that are required:
-    * Liberation Mono (for `st`). Package: `ttf-liberation`.
+    * Source Code Pro (for `st`). Package: `adobe-source-code-pro-fonts`.
     * Helvetica Neue. I use it throughout my desktop, for subtitles in `mpv` and `vlc`. It's used both by Qt applications (configured through KDE's system settings) and GTK applications (.config/gtk-2.0/gtkrc). Copied over from my Windows install (https://wiki.archlinux.org/index.php/Microsoft_fonts#Using_fonts_from_a_Windows_partition). If Helvetica Neue is not installed, the OS should be able to use some other font instead.
     * Hack Nerd Font (for `dwm`). Available at https://www.nerdfonts.com or by installing `nerd-fonts-hack` from the AUR.
 * List of all explicitly installed packages on my system (with `pacman -Qe`) are in `pkglist.txt`. I use `paru` as my AUR helper.
