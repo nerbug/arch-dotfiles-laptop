@@ -62,7 +62,6 @@ khotkeys
 kimageformats
 kinfocenter
 kmenuedit
-knetattach
 konsole
 kscreen
 kscreenlocker
@@ -146,6 +145,7 @@ pulseaudio-alsa
 pulsemixer
 python-pywal
 qt5-imageformats
+reflector
 rsync
 sddm-kcm
 sed
