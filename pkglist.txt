@@ -8,6 +8,7 @@ autoconf
 automake
 base
 bat
+bind
 binutils
 bison
 bluedevil
@@ -44,9 +45,12 @@ gst-plugins-ugly
 gstreamer
 gwenview
 gzip
+hddtemp
 htop
+hw-probe
 intel-gpu-tools
 intel-ucode
+inxi
 kactivitymanagerd
 kate
 kcalc
@@ -124,6 +128,9 @@ patch
 pbzip2
 pcmanfm-gtk3
 peaclock
+perl-cpanel-json-xs
+perl-io-socket-ssl
+perl-xml-dumper
 picom-git
 pigz
 pkgconf
@@ -138,6 +145,7 @@ plasma-thunderbolt
 plasma-vault
 plasma-workspace
 plasma-workspace-wallpapers
+pnputils-git
 polkit-kde-agent
 powerdevil
 pulseaudio
@@ -157,6 +165,7 @@ sxiv
 systemsettings
 texinfo
 tlp
+tree
 ttf-liberation
 unarchiver
 unrar
@@ -164,6 +173,7 @@ upd72020x-fw
 vulkan-intel
 wd719x-firmware
 which
+wmctrl
 wqy-zenhei
 xclip
 xdg-desktop-portal-kde
