@@ -122,6 +122,7 @@ oxygen
 p7zip
 packagekit-qt5
 pacman
+pacolog
 partitionmanager
 paru-bin
 patch
