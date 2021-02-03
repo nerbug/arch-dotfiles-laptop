@@ -4,6 +4,7 @@ aic94xx-firmware
 alsa-utils
 ark
 asp
+atomicparsley
 autoconf
 automake
 base
@@ -153,6 +154,7 @@ powerdevil
 pulseaudio
 pulseaudio-alsa
 pulsemixer
+python-pycryptodome
 python-pywal
 qt5-imageformats
 reflector
@@ -230,6 +232,7 @@ xorg-xwayland
 xorg-xwd
 xorg-xwininfo
 xorg-xwud
+youtube-dl
 zathura
 zathura-pdf-mupdf
 zsh
