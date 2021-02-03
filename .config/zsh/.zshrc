@@ -27,7 +27,6 @@ alias peaclock="peaclock --config-dir ~/.config/peaclock"
 alias grep="grep --color=auto"
 alias diff="diff --color=auto"
 alias rm="rm -Iv"
-alias vim="nvim"
 # https://linuxhandbook.com/run-alias-as-sudo/
 alias sudo="sudo "
 

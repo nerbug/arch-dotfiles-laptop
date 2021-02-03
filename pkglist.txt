@@ -107,6 +107,7 @@ nano
 ncmpcpp
 neofetch
 neovim
+neovim-symlinks
 nerd-fonts-hack
 network-manager-applet
 networkmanager
