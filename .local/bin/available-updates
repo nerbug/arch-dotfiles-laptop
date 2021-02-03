@@ -1,0 +1,47 @@
+#! /bin/sh
+
+# Checks the number of available updates and shows a notification on the screen.
+# Requires the `pacman-contrib` package (for `checkupdates`) and a notification server to be running (such as dunst)
+
+# Timeout milliseconds at which to expire the notification.
+expire_time=10000
+
+# Use dunstify instead of notify-send for additional features (tested to work on KDE's notification system and, obviously, dunst) (0 or 1)
+use_dunstify=1
+
+# Terminal to open if the 'Open terminal' button is pressed
+terminal="st"
+
+# Icon to show in notification (leave blank if you don't want one)
+#path_to_icon=""
+path_to_icon="/usr/share/icons/breeze/status/64/dialog-information.svg"
+if [ -z $path_to_icon ]
+then
+    icon_flag=""
+else
+    icon_flag="-i $path_to_icon"
+fi
+
+available_updates=$(checkupdates | wc -l)
+if [ $available_updates -ne 0 ]
+then
+    if [ $available_updates -eq 1 ]
+    then
+        message="1 update available."
+    else
+	message="$available_updates updates available."
+    fi
+
+    if [ $use_dunstify -eq 1 ]
+    then
+        action=$(dunstify --action="open_terminal,Open terminal" -a "Updates available" -t $expire_time $icon_flag "$message")
+
+	case "$action" in
+	"open_terminal")
+	    "$terminal"
+	    ;;
+	esac
+    else
+        notify-send -a "Updates available" -t $expire_time $icon_flag "$message"
+    fi
+fi
