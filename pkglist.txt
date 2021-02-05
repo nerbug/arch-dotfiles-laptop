@@ -16,6 +16,8 @@ bluedevil
 bluez-utils
 breeze
 breeze-gtk
+cpupower
+cpupower-gui
 dkms
 dolphin
 drkonqi
