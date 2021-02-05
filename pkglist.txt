@@ -180,7 +180,6 @@ vulkan-intel
 wd719x-firmware
 which
 wmctrl
-wqy-zenhei
 xclip
 xdg-desktop-portal-kde
 xdg-user-dirs
