@@ -44,4 +44,8 @@ then
     else
         notify-send -a "Updates available" -t $expire_time $icon_flag "$message"
     fi
+else
+    message="No updates available."
+    # We can use the regular notify-send command for this.
+    notify-send -a "No new updates" -t $expire_time $icon_flag "$message"
 fi
