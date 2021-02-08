@@ -37,6 +37,7 @@ gawk
 gcc
 gettext
 git
+gnome-keyring
 grep
 groff
 grub
@@ -164,6 +165,7 @@ qt5-imageformats
 reflector
 rsync
 sddm-kcm
+seahorse
 sed
 sof-firmware
 spectacle
