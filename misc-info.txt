@@ -2,3 +2,10 @@
 - # https://wiki.archlinux.org/index.php/NetworkManager#Encrypted_Wi-Fi_passwords (I'm using the GNOME keyring in dwm, and the KDE wallet while in the KDE environment to encrypt and store my Wi-Fi passwords)
 - # https://wiki.archlinux.org/index.php/GNOME/Keyring
 - # https://wiki.archlinux.org/index.php/KDE_Wallet
+- optimus-manager-qt settings:
+  *  Optimus section:
+    -  Switching method: Nouveau
+    -  PCI power control: on
+  *  Intel section:
+    -  Driver: Intel
+  * All other settings left as default
