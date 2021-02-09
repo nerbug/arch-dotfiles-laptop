@@ -187,7 +187,6 @@ wmctrl
 xclip
 xdg-desktop-portal-kde
 xdg-user-dirs
-xf86-video-intel
 xf86-video-nouveau
 xf86-video-vesa
 xorg-bdftopcf

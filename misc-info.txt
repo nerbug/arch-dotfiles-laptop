@@ -7,5 +7,5 @@
     -  Switching method: Nouveau
     -  PCI power control: on
   *  Intel section:
-    -  Driver: Intel
+    -  Driver: Modesetting (testing out the regular Modesetting driver for now to see if there are any differences)
   * All other settings left as default
