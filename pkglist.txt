@@ -141,6 +141,10 @@ perl-io-socket-ssl
 perl-xml-dumper
 picom-git
 pigz
+pipewire-alsa
+pipewire-jack
+pipewire-jack-dropin
+pipewire-pulse
 pkgconf
 plasma-browser-integration
 plasma-desktop
@@ -156,8 +160,6 @@ plasma-workspace-wallpapers
 pnputils-git
 polkit-kde-agent
 powerdevil
-pulseaudio
-pulseaudio-alsa
 pulsemixer
 python-pycryptodome
 python-pywal
