@@ -179,6 +179,7 @@ texinfo
 tlp
 tree
 ttf-liberation
+ueberzug
 unarchiver
 unrar
 upd72020x-fw
@@ -239,6 +240,7 @@ xorg-xwd
 xorg-xwininfo
 xorg-xwud
 youtube-dl
+ytfzf
 zathura
 zathura-pdf-mupdf
 zsh
