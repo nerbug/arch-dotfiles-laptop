@@ -29,6 +29,8 @@ alias diff="diff --color=auto"
 alias rm="rm -Iv"
 # https://linuxhandbook.com/run-alias-as-sudo/
 alias sudo="sudo "
+# Always show thumbnails
+alias ytfzf="ytfzf -t"
 
 # Set terminal colors from pywal if the currently running desktop environment is dwm
 if [[ "$XDG_SESSION_DESKTOP" == "dwm" ]]; then
