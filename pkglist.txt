@@ -240,7 +240,7 @@ xorg-xwd
 xorg-xwininfo
 xorg-xwud
 youtube-dl
-ytfzf
+ytfzf-git
 zathura
 zathura-pdf-mupdf
 zsh
