@@ -24,6 +24,7 @@ drkonqi
 dunst
 efibootmgr
 elisa
+exa
 fakeroot
 feh
 ffmpegthumbs

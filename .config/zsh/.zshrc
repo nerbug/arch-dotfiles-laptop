@@ -17,8 +17,8 @@ autoload -Uz promptinit
 promptinit
 prompt walters
 
-alias ls="ls --color=auto --group-directories-first -F"
-alias ll="ls -alh"
+#alias ls="ls --color=auto --group-directories-first -F"
+#alias ll="ls -alh"
 alias mkdir="mkdir -pv"
 alias cp="cp -i"
 alias df="df -h"
@@ -31,6 +31,9 @@ alias rm="rm -Iv"
 alias sudo="sudo "
 # Always show thumbnails
 alias ytfzf="ytfzf -t"
+# exa
+alias ls="exa --group-directories-first -F"
+alias ll="exa -ablh --group-directories-first --color-scale --icons --group --grid --time-style=long-iso"
 
 # Set terminal colors from pywal if the currently running desktop environment is dwm
 if [[ "$XDG_SESSION_DESKTOP" == "dwm" ]]; then
