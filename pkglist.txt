@@ -43,6 +43,7 @@ grep
 groff
 grub
 gst-libav
+gst-plugin-pipewire
 gst-plugins-bad
 gst-plugins-base
 gst-plugins-good
@@ -105,7 +106,6 @@ make
 man-db
 man-pages
 milou
-mlocate
 mpd
 mpv
 nano
@@ -158,6 +158,7 @@ plasma-thunderbolt
 plasma-vault
 plasma-workspace
 plasma-workspace-wallpapers
+plocate
 pnputils-git
 polkit-kde-agent
 powerdevil
