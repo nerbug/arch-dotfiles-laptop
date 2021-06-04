@@ -18,6 +18,7 @@ breeze
 breeze-gtk
 cpupower
 cpupower-gui
+crda
 dkms
 dolphin
 drkonqi
