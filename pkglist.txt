@@ -172,6 +172,7 @@ python-pycryptodome
 python-pywal
 qt5-imageformats
 reflector
+ripgrep
 rsync
 sddm-kcm
 seahorse
