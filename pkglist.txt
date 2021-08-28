@@ -8,7 +8,9 @@ atomicparsley
 autoconf
 automake
 base
+bash-completion
 bat
+bat-extras-git
 bind
 binutils
 bison
@@ -39,6 +41,7 @@ gawk
 gcc
 gettext
 git
+git-delta
 gnome-keyring
 grep
 groff
@@ -248,4 +251,5 @@ ytfzf
 zathura
 zathura-pdf-mupdf
 zsh
+zsh-completions
 zsh-syntax-highlighting
