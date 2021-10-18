@@ -248,7 +248,8 @@ xorg-xwayland
 xorg-xwd
 xorg-xwininfo
 xorg-xwud
-youtube-dl
+youtube-dlp-bin
+yt-dlp-drop-in
 ytfzf
 zathura
 zathura-pdf-mupdf
