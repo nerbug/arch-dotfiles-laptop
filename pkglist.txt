@@ -195,6 +195,7 @@ upd72020x-fw
 vulkan-intel
 wd719x-firmware
 which
+wireplumber
 wmctrl
 xclip
 xdg-desktop-portal-kde
