@@ -249,7 +249,7 @@ xorg-xwayland
 xorg-xwd
 xorg-xwininfo
 xorg-xwud
-youtube-dlp-bin
+yt-dlp
 yt-dlp-drop-in
 ytfzf
 zathura
