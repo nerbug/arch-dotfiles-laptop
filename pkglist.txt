@@ -169,7 +169,6 @@ polkit-kde-agent
 power-profiles-daemon
 powerdevil
 pulsemixer
-python-pycryptodome
 python-pywal
 qt5-imageformats
 reflector
