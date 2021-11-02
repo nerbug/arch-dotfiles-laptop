@@ -56,7 +56,6 @@ gstreamer
 gwenview
 gzip
 hddtemp
-hlsdl-git
 htop
 hw-probe
 intel-gpu-tools
