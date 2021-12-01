@@ -109,6 +109,7 @@ maim
 make
 man-db
 man-pages
+mesa-utils
 milou
 mpd
 mpv
