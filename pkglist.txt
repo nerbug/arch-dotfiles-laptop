@@ -166,7 +166,6 @@ plasma-workspace-wallpapers
 plocate
 pnputils-git
 polkit-kde-agent
-power-profiles-daemon
 powerdevil
 pulsemixer
 python-pywal
