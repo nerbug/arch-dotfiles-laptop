@@ -149,7 +149,6 @@ picom-git
 pigz
 pipewire-alsa
 pipewire-jack
-pipewire-jack-dropin
 pipewire-pulse
 pkgconf
 plasma-browser-integration
