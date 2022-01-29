@@ -1,6 +1,5 @@
 acpilight
 adobe-source-code-pro-fonts
-aic94xx-firmware
 alsa-utils
 ark
 asp
@@ -190,7 +189,6 @@ unarchiver
 unrar
 upd72020x-fw
 vulkan-intel
-wd719x-firmware
 which
 wireplumber
 wmctrl
