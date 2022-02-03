@@ -9,7 +9,7 @@ automake
 base
 bash-completion
 bat
-bat-extras-git
+bat-extras
 bind
 binutils
 bison
