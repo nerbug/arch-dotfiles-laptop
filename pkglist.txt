@@ -19,7 +19,6 @@ breeze
 breeze-gtk
 cpupower
 cpupower-gui
-crda
 dkms
 dolphin
 drkonqi
@@ -190,6 +189,7 @@ unrar
 upd72020x-fw
 vulkan-intel
 which
+wireless-regdb
 wireplumber
 wmctrl
 xclip
