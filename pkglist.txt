@@ -83,7 +83,6 @@ ksystemlog
 kwallet-pam
 kwalletmanager
 kwayland-integration
-kwayland-server
 kwin
 kwrited
 lib32-gamemode
