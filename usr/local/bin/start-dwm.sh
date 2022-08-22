@@ -8,6 +8,6 @@ xrdb ~/.config/x11/Xresources
 setbg &
 dunst &
 nm-applet --indicator &
-(sleep 1 && picom --experimental-backends) &
+(sleep 1 && picom) &
 /usr/lib/polkit-kde-authentication-agent-1 &
 exec dwm
