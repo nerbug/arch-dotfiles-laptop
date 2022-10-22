@@ -115,7 +115,6 @@ ncmpcpp
 neofetch
 neovim
 neovim-symlinks
-nerd-fonts-hack
 network-manager-applet
 networkmanager
 noto-fonts
@@ -181,6 +180,7 @@ systemsettings
 texinfo
 tlp
 tree
+ttf-hack-nerd
 ttf-liberation
 ueberzug
 unarchiver
