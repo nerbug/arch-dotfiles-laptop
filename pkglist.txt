@@ -124,6 +124,7 @@ noto-fonts-extra
 ntfs-3g
 nvidia-dkms
 okular
+openssl-1.1
 optimus-manager
 optimus-manager-qt
 os-prober
