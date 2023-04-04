@@ -28,6 +28,7 @@ efibootmgr
 elisa
 exa
 fakeroot
+fd
 feh
 ffmpegthumbs
 file
