@@ -186,6 +186,7 @@ ttf-liberation
 ueberzug
 unarchiver
 unrar
+unzip
 upd72020x-fw
 vulkan-intel
 which
