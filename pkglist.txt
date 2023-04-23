@@ -75,6 +75,7 @@ khelpcenter
 khotkeys
 kimageformats
 kinfocenter
+kio-admin
 kmenuedit
 konsole
 kscreen
