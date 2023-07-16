@@ -192,6 +192,7 @@ unrar
 unzip
 upd72020x-fw
 vulkan-intel
+wget
 which
 wireless-regdb
 wireplumber
