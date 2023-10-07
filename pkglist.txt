@@ -73,7 +73,7 @@ keepassxc
 kgamma5
 khelpcenter
 khotkeys
-kimageformats
+kimageformats5
 kinfocenter
 kio-admin
 kmenuedit
