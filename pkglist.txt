@@ -70,7 +70,7 @@ kdecoration
 kdegraphics-thumbnailers
 kdeplasma-addons
 keepassxc
-kgamma5
+kgamma
 khelpcenter
 khotkeys
 kimageformats5
