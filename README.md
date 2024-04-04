@@ -1,6 +1,8 @@
 # Arch Linux dotfiles
 Various dotfiles, scripts and other config files for my Arch Linux installation.
 
+**NOTE: this repository has been archived as I no longer use my laptop very much.**
+
 * Various scripts in `.local/bin/` (setting the wallpaper, video playback from the `~/Videos` directory using `mpv`, status bar blocks, etc.) Make sure to set them as executable with `chmod u+x` if they already aren't.
 * Wallpaper setting script in `.local/bin/setbg` which sets the wallpaper using `feh` and a fitting color scheme with `python-pywal`. This script is also ran at `dwm` startup, using the image at `~/.config/dwm-background` as the wallpaper (the file can also be a symlink as well).
 * Settings for various programs, such as `zsh`, `mpv` and so on, are in `.config/`.
